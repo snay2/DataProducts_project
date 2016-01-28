@@ -15,7 +15,7 @@ shinyServer(function(input, output) {
       second <- (-b - term2)/2*a
       
       paste('Solutions are', first, 'and', second)
-    } else if (b == 0 && sqrt_term == 0) {
+    } else if (sqrt_term == 0) {
       paste('The solution is 0')
     } else {
       paste('Since the square root term is negative, there are no real solutions.')
